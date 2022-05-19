@@ -102,7 +102,7 @@ if __name__=='__main__':
 
     CTR_data = []   # append data as sublists: [depth_px, CTR, i, xc_signal, yc_signal, xc_background, yc_background]
 
-    %matplotlib qt
+    #%matplotlib qt
     for i in range(N):
         
         # if all data points finished, break loop

@@ -11,11 +11,13 @@ want to measure.
 
 
 ## Usage
+You can run this from a terminal emulator with `python3 interactive_CTR.py`.
+
 To select an ROI, you must click two opposing diagonal corners.
 This script automatically loops over all frames of the .mat file.
 For each frame, first select a signal ROI, then a background ROI. Repeat.
-(signal ROIs will show as red, background ROIs as blue. It's a little slow though...)
-(the right plot will be populated with scatter data as it is calculated)
+Signal ROIs will show as red, background ROIs as blue.
+The right subplot will be populated with scatter data as it is calculated.
 To move on to the next frame, double click just inside the upper left corner (red X).
 
 An example of the interactive plot is shown below. Several signal ROIs (red) and

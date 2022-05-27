@@ -1,4 +1,4 @@
-# InteractiveCTR
+# Interactive CTR
 Python script to automate selection of multiple signal and background 
 ROIs for calculating the contrast-tissue ratio (CTR).
 
